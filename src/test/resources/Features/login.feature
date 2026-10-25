@@ -2,11 +2,12 @@ Feature: Login Feature
 
 Scenario Outline: Successful login with valid credentials
    Given the user is on the login page
-   When the user enters the valid username <username>
+   And the user clicks on the login button
+   And the user enters the valid username <username>
    And the user enters valid password <password>
-   And the user clicks the login button
-   Then the user should be logged in successfully
-   And Welcome message should be displayed
+   When the user clicks the Submit button
+   Then Welcome message should be displayed
+
 
   Examples:
     | username | password |

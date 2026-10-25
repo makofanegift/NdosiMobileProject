@@ -21,9 +21,11 @@ public class NdosiLoginScreen {
     WebElement mainLoginSignUpButton;
 
     public void clickMainMenuButton(){
+
         mainMenuButton.click();
     }
     public void clickMainLoginButton(){
+
         mainLoginSignUpButton.click();
 
     }
