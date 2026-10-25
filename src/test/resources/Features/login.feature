@@ -10,7 +10,7 @@ Scenario Outline: Successful login with valid credentials
 
 
   Examples:
-    | username | password |
-    | user1    | pass1    |
-    | user2    | pass2    |
+    | username                  | password          |
+    | GiftTest+210@gmail.com    | Ndosi_TesSite2    |
+
 
